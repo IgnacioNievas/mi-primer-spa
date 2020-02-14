@@ -1,0 +1,17 @@
+<h1 class='animated fadeIn '>{{heroe.nombre|uppercase}}</h1>
+<h2><small>Hizo su presentacion el:{{heroe.aparicion|date:' LLL Del y'}}</small></h2>
+<hr>
+<div class="row animated fadeIn fast">
+    <div class='col-md-4'>
+        <img [src]='heroe.img' class="img-fluid" [alt]='heroe.nombre'>
+        <br><br>
+        <button (click)='volver()' class="btn btn-outline-danger btn-block">Regresar...</button>'
+
+    </div>
+    <div class="col-md-8">
+        <h3>{{heroe.nombre}}</h3>
+        <hr>
+        <p>{{heroe.bio}}</p>
+        <img style='width:200px' [src]='heroe.img2' [alt]='heroe.casa'>
+    </div>
+</div>

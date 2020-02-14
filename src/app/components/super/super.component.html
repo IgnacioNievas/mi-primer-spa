@@ -1,0 +1,17 @@
+<h1 class='animated fadeIn '>{{super.nombre|uppercase}}</h1>
+<h2><small>Hizo su presentacion el:{{super.aparicion|date:' LLL Del y'}}</small></h2>
+<hr>
+<div class="row animated fadeIn fast">
+    <div class='col-md-4'>
+        <img [src]='super.img' class="img-fluid" [alt]='super.nombre'>
+        <br><br>
+        <a [routerLink]="['/marvel']" class='btn  btn-outline-primary btn-block'> Regresar a Marvel </a>
+        <a [routerLink]="['/dc']" class='btn  btn-outline-secondary btn-block'> O a Dc </a>
+    </div>
+    <div class="col-md-8">
+        <h3>{{super.nombre}}</h3>
+        <hr>
+        <p>{{super.bio}}</p>
+        <img style='width:200px' [src]='super.img2' [alt]='super.casa'>
+    </div>
+</div>
