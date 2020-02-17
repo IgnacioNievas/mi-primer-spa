@@ -9,7 +9,6 @@ export class NavbarComponent {
   constructor(private rou:Router  ) { }
 
   buscarHer(term:string){
-   
  this.rou.navigate(['/buscar',term])
 
 } }

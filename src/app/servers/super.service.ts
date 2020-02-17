@@ -99,9 +99,7 @@ import{Injectable} from '@angular/core';
 sh(idx:string){
    return this.heroes[idx]
 }
-     getHeroes():Heroe[]{
-          return this.heroes;
-     }
+    
      buscars(term:string):Heroe[]{
        let heroesArr:Heroe[]=[];
        term = term.toLowerCase();

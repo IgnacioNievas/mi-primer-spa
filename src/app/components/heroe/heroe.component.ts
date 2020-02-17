@@ -8,13 +8,13 @@ import{ActivatedRoute, Router}from '@angular/router'
 })
 export class HeroeComponent {
   heroe:any ={};
-  constructor(private act:ActivatedRoute, private _he:HeroesService,private _rout:Router) { 
+  constructor(private act:ActivatedRoute, private _he:HeroesService,private rout:Router) { 
     this.act.params.subscribe(pa =>{
      this.heroe= this._he.getHeroe(pa['id']);
     })
   }
   volver(){
-    this._rout.navigate(['/marvel']);
+    this.rout.navigate(['/marvel']);
   }
 
 

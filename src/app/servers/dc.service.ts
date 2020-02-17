@@ -58,17 +58,7 @@ import{Injectable} from '@angular/core';
      dh( idx:string){
       return this.heroes[idx]
     }
-    buscars(term:string):Hero[]{
-      let heroesArr:Hero[]=[];
-      term = term.toLowerCase();
-      for(let heroe of this.heroes){
-        let nomb =heroe.nombre.toLowerCase();
-       if (nomb.indexOf(term) >= 0){
-         heroesArr.push(heroe)
-       }
-      }
-      return heroesArr;
-    }
+    
 } 
  
 
