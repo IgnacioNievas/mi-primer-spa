@@ -18,6 +18,8 @@ import { HeroeComponent } from './components/heroe/heroe.component';
 import { DcxComponent } from './components/dcx/dcx.component';
 import { BuscarComponent } from './components/buscar/buscar.component';
 import { SuperComponent } from './components/super/super.component';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+import { TarjetasMarvelComponent } from './components/tarjetas-marvel/tarjetas-marvel.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { SuperComponent } from './components/super/super.component';
     HeroeComponent,
     DcxComponent,
     BuscarComponent,
-    SuperComponent
+    SuperComponent,
+    TarjetasComponent,
+    TarjetasMarvelComponent
   ],
   imports: [
     BrowserModule,

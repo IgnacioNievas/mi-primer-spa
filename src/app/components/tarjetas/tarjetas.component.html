@@ -1,0 +1,8 @@
+<div class="card animated fadeIn fast ">
+    <img [src]="hex.img" class="card-img-top img-fluid" [alt]='hex.nombre'>
+    <div class="card-body">
+        <h5 class="card-title">{{hex.nombre}}</h5>
+        <p class="card-text">{{hex.bio2}}</p>
+        <p class="card-text"><small class="text-muted">({{hex.aparicion|date:'y'}})</small></p>
+        <button (click)='dhero()' class="btn btn-outline-primary btn-block">Ver mas..</button>
+    </div>
