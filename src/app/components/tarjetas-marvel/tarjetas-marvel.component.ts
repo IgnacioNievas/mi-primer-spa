@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   selector: 'app-tarjetas-marvel',
   templateUrl: './tarjetas-marvel.component.html',
 })
-export class TarjetasMarvelComponent implements OnInit {
+export class TarjetasMarvelComponent  {
 @Input() he:any={};
 @Input() index:number;
   constructor( private ro:Router) { }

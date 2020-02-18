@@ -48,6 +48,15 @@ import{Injectable} from '@angular/core';
             aparicion: "1941-11-01",
             casa:"DC",
             bio2:'El poder más reconocido de Aquaman es...'
+          },
+          {
+            nombre: "Robin",
+            bio: "Robin es un personaje ficticio de la editorial DC Comics, joven héroe compañero de Batman. Desde 1940 varios personajes han ocupado el rol de Robin, el original y más conocido ha sido el de Dick Grayson. Todas las versiones de Robin han sido las de un chico joven con traje colorido, bastante positivo y alegre, lo cual contrasta perfectamente con la apariencia oscura y personalidad seria de Batman.",
+            img: "assets/img/robin.png",
+            img2: "assets/img/ro.png",
+            aparicion: "1940-04-01",
+            casa:"DC",
+            bio2:'Robin es un personaje ficticio de la editorial ...'
           }
       ];
      constructor(){}
