@@ -15,7 +15,7 @@ const APP_ROUTES:Routes =[
     {path:'dcx/:id', component: DcxComponent},
     {path:'heroe/:id', component: HeroeComponent},
     {path:'super/:id', component: SuperComponent},
-    {path:'buscar/:term', component: BuscarComponent},
+    {path:'buscar/:termino', component: BuscarComponent},
     {path:'**', pathMatch:'full',redirectTo:'home'}
     
 ];

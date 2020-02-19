@@ -8,8 +8,8 @@ import{Router} from '@angular/router';
 export class NavbarComponent {
   constructor(private rou:Router  ) { }
 
-  buscarHer(term:string){
- this.rou.navigate(['/buscar',term])
+  buscarHer(ter:string){
+ this.rou.navigate(['/buscar',ter])
 
 } }
 

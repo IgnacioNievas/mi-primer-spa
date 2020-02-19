@@ -21,9 +21,9 @@
                 <a class="nav-link" [routerLink]="['dc']">Dc </a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" (keyup.enter)='buscarHer(buscarTexto.value)' #buscarTexto>
-            <button class="btn btn-outline-light my-2 my-sm-0" type="button" (click)='buscarHer(buscarTexto.value)'>Buscar</button>
-        </form>
+        <div class="form-inline my-2 my-lg-0">
+            <input class="form-control my-2 my-lg-0 " type="text" placeholder="Buscar Heroe..." (keyup.enter)='buscarHer(Texto.value)' #Texto>
+            <button class="btn btn-outline-light my-2 my-sm-0" type="button" (click)='buscarHer(Texto.value)'>Buscar</button>
+        </div>
     </div>
 </nav>

@@ -14,8 +14,8 @@ export class BuscarComponent implements OnInit {
 
   ngOnInit() {
     this.av.params.subscribe(pax =>{
-      this.heroes= this._ds.buscars(pax['term']);
-      this.termino= pax['term'];
+      this.heroes= this._ds.buscars(pax['termino']);
+      this.termino= pax['termino'];
   });}
   dhero(idx:number){
     this.ro.navigate(['/super',idx]);
