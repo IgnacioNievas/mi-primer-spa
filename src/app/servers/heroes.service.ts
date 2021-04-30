@@ -48,6 +48,15 @@ import{Injectable} from '@angular/core';
           img2: "assets/img/wol.png",
           aparicion: "1974-11-01",
           casa: "Marvel"
+        },
+        {
+          nombre: "Doctor Strange",
+          bio: "Una vez fue un cirujano brillante pero egoísta. Después de que un accidente automovilístico dañara gravemente sus manos y obstaculiza su capacidad para realizar una cirugía, busca una forma de repararlas encontrándose con el Anciano. Después de convertirse en uno de los alumnos del Hechicero Supremo, se convierte en un practicante tanto de las artes místicas como de las artes marciales. Además de conocer muchos hechizos poderosos, tiene un traje con dos objetos místicos: la Capa de Levitación y el Ojo de Agamotto, que le otorgan poderes adicionales. Strange es ayudado en el camino por su amigo y sirviente, Wong, y una gran variedad de objetos místicos. Toma residencia en una mansión llamada Sanctum Sanctorum, ubicado en la ciudad de Nueva York. Más tarde, Strange toma el título de Hechicero Supremo.",
+          bio2: 'Una vez fue un cirujano brillante pero ...',
+          img: "assets/img/doc.png",
+          img2: "assets/img/ds.png",
+          aparicion: "1963-07-01",
+          casa: "Marvel"
         }
       ];
      constructor(){}

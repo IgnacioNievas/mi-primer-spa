@@ -21,6 +21,8 @@ import { SuperComponent } from './components/super/super.component';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
 import { TarjetasMarvelComponent } from './components/tarjetas-marvel/tarjetas-marvel.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,11 +36,14 @@ import { TarjetasMarvelComponent } from './components/tarjetas-marvel/tarjetas-m
     BuscarComponent,
     SuperComponent,
     TarjetasComponent,
-    TarjetasMarvelComponent
+    TarjetasMarvelComponent,
+ 
+  
   ],
   imports: [
     BrowserModule,
-APP_ROUTING
+APP_ROUTING,
+
 
   ],
   providers: [HeroesService,DcService,SuperService],

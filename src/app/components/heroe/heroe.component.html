@@ -3,7 +3,7 @@
 <hr>
 <div class="row animated fadeIn fast">
     <div class='col-md-4'>
-        <img [src]='heroe.img' class="img-fluid" [alt]='heroe.nombre'>
+        <img [src]='heroe.img' class="img-fluid " [alt]='heroe.nombre'>
         <br><br>
         <button (click)='volver()' class="btn btn-outline-danger btn-block">Regresar...</button>'
 
@@ -12,6 +12,6 @@
         <h3>{{heroe.nombre}}</h3>
         <hr>
         <p>{{heroe.bio}}</p>
-        <img style='width:200px' [src]='heroe.img2' [alt]='heroe.casa'>
+        <a href='https://www.youtube.com/watch?v=4O3UGW-Bbbw'> <img style='width:200px' class="img-fluid puntero " [src]='heroe.img2' [alt]='heroe.casa'></a>
     </div>
 </div>
